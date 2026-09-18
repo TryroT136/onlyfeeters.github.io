@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Link Button</title>
+    <style>
+        /* Reset margins and make the body fill the entire screen */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* 100% of the viewport height */
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;     /* Center vertically */
+            background-color: #f0f2f5;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Style the link to look like a modern button */
+        .custom-button {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #007bff; /* Clean blue color */
+            text-decoration: none;     /* Removes the default underline */
+            border-radius: 6px;        /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+
+        /* Add a hover effect to make it interactive */
+        .custom-button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+        /* Add a slight click effect */
+        .custom-button:active {
+            transform: scale(0.98);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Change the href URL to wherever you want the link to go -->
+    <a href="https://discord.gg/az86tdkPyy" target="_blank" class="custom-button">Click Me</a>
+
+</body>
+</html>
